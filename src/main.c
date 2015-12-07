@@ -32,7 +32,7 @@ unsigned log_level = LOG_NORMAL;
 static void
 start(void)
 {
-	fprintf(stdout, "{\"version\":1,\"click_events\":true}\n[[]\n");
+	fprintf(stdout, "{\"version\":1,\"click_events\":false}\n[[]\n");
 	fflush(stdout);
 }
 
